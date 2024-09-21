@@ -1,0 +1,5 @@
+﻿  multiplicaicon de flotantes.cpp
+D:\trabajos_Arqui\flotantes\multiplicaicon de flotantes.cpp(129,81): warning C4244: 'argumento': conversión de 'double' a 'unsigned __int64'; posible pérdida de datos
+D:\trabajos_Arqui\flotantes\multiplicaicon de flotantes.cpp(132,29): warning C4244: 'inicializando': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+D:\trabajos_Arqui\flotantes\multiplicaicon de flotantes.cpp(142,50): warning C4244: 'argumento': conversión de 'float' a 'unsigned __int64'; posible pérdida de datos
+  flotantes.vcxproj -> D:\trabajos_Arqui\flotantes\x64\Debug\flotantes.exe
