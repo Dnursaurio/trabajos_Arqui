@@ -1,0 +1,40 @@
+# Definir el arreglo y las variables
+arreglo = [3, 15, 7, 9, 20, 19]  # El arreglo de números
+tamaño = 6                       # Tamaño del arreglo
+valor_maximo = 0                 # Inicializar el valor máximo
+indice_maximo = 0                # Inicializar el índice del valor máximo
+
+# Procedimiento principal
+main():
+    valor_maximo, indice_maximo = buscarmax(arreglo, tamaño)
+    
+    # Imprimir el valor máximo y su posición
+    imprimir("Valor máximo: ", valor_maximo)
+    imprimir("Posición: ", indice_maximo)
+
+# Función para buscar el valor máximo en el arreglo
+buscarmax(arreglo, tamaño):
+    max = arreglo[0]         # Suponer que el primer valor es el máximo
+    indice_max = 0           # El índice del valor máximo es el primero
+    i = 0                    # Iniciar el índice actual
+
+    # Iterar sobre el arreglo
+    mientras i < tamaño:
+        valor_actual = arreglo[i]
+        
+        si valor_actual > max:
+            max = valor_actual   # Actualizar el valor máximo
+            indice_max = i       # Actualizar el índice del valor máximo
+        
+        i = i + 1                # Incrementar el índice
+
+    # Retornar el valor máximo y el índice
+    retornar max, indice_max
+
+# Función para imprimir los resultados
+imprimir(texto, valor):
+    # Lógica para imprimir el texto y el valor
+    escribir(texto + valor)
+
+# Llamar a la función principal
+main()
